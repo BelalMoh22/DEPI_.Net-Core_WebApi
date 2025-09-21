@@ -1,0 +1,6 @@
+@Day16_.NetCore_8_WebApi_HostAddress = http://localhost:5120
+
+GET {{Day16_.NetCore_8_WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
