@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "WebApiDemo\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day16_.NetCore 8_WebApi", "Day16_.NetCore 8_WebApi\Day16_.NetCore 8_WebApi.csproj", "{AA8A8483-53C8-4141-B314-2757E590748B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day17WebApiCore8", "Day17WebApiCore8\Day17WebApiCore8.csproj", "{5ADDB3FB-78BC-46AC-A1E7-6C3F893E1815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day17WebApiCore9", "Day17WebApiCore9\Day17WebApiCore9.csproj", "{F616AEB4-DBC9-4BA6-8DAB-A97965A4A5ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{AA8A8483-53C8-4141-B314-2757E590748B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA8A8483-53C8-4141-B314-2757E590748B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA8A8483-53C8-4141-B314-2757E590748B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADDB3FB-78BC-46AC-A1E7-6C3F893E1815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADDB3FB-78BC-46AC-A1E7-6C3F893E1815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADDB3FB-78BC-46AC-A1E7-6C3F893E1815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADDB3FB-78BC-46AC-A1E7-6C3F893E1815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F616AEB4-DBC9-4BA6-8DAB-A97965A4A5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F616AEB4-DBC9-4BA6-8DAB-A97965A4A5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F616AEB4-DBC9-4BA6-8DAB-A97965A4A5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F616AEB4-DBC9-4BA6-8DAB-A97965A4A5ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

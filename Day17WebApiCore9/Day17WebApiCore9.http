@@ -1,0 +1,6 @@
+@Day17WebApiCore9_HostAddress = http://localhost:5139
+
+GET {{Day17WebApiCore9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
