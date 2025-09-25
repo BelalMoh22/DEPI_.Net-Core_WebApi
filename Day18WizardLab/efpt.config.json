@@ -1,0 +1,154 @@
+﻿{
+   "CodeGenerationMode": 5,
+   "ContextClassName": "AppDBContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "MinimumProductVersion": "2.6.1166",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Day18WizardLab",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[COAL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomerCustomerDemo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomerDemographics]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[E1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeesCase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeesShortTable]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeTerritories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[emps]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NewEmployee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NewOrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NweOrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Order Details]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[p1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[p2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Region]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Shippers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SouqCustomers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SouqOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Suppliers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[t1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Temp1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Territories]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
