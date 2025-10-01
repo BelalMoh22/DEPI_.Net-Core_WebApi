@@ -23,6 +23,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18WizardLab", "Day18Wiza
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18LabQuery", "Day18LabQuery\Day18LabQuery.csproj", "{C32D1E60-2315-4D8F-A538-4D045BC88DA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDay19Lab", "EventDay19Lab\EventDay19Lab.csproj", "{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19WinFormEventLab", "Day19WinFormEventLab\Day19WinFormEventLab.csproj", "{9818B1B4-97D5-45EB-90B0-DA395DF7CB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19EventDemoLab", "Day19EventDemoLab\Day19EventDemoLab.csproj", "{BDA8944E-84D7-4A79-89D4-25B8EBBFB599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19LabAsyncDemo", "AsyncDemoDay19Lab\Day19LabAsyncDemo.csproj", "{FC8593B8-1BE9-4C76-BEC1-5FDA85AC50D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19WebApiLab", "Day19WebApiLab\Day19WebApiLab.csproj", "{F7069E57-0089-4E65-8C66-7C41A3D67203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +79,26 @@ Global
 		{C32D1E60-2315-4D8F-A538-4D045BC88DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C32D1E60-2315-4D8F-A538-4D045BC88DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C32D1E60-2315-4D8F-A538-4D045BC88DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9818B1B4-97D5-45EB-90B0-DA395DF7CB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9818B1B4-97D5-45EB-90B0-DA395DF7CB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9818B1B4-97D5-45EB-90B0-DA395DF7CB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9818B1B4-97D5-45EB-90B0-DA395DF7CB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA8944E-84D7-4A79-89D4-25B8EBBFB599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA8944E-84D7-4A79-89D4-25B8EBBFB599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA8944E-84D7-4A79-89D4-25B8EBBFB599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA8944E-84D7-4A79-89D4-25B8EBBFB599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8593B8-1BE9-4C76-BEC1-5FDA85AC50D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8593B8-1BE9-4C76-BEC1-5FDA85AC50D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8593B8-1BE9-4C76-BEC1-5FDA85AC50D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8593B8-1BE9-4C76-BEC1-5FDA85AC50D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
