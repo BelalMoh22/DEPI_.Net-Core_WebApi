@@ -1,0 +1,6 @@
+@Day20WebApiLab_HostAddress = http://localhost:5008
+
+GET {{Day20WebApiLab_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

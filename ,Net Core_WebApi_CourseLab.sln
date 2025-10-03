@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19LabAsyncDemo", "AsyncD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19WebApiLab", "Day19WebApiLab\Day19WebApiLab.csproj", "{F7069E57-0089-4E65-8C66-7C41A3D67203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20WebApiLab", "Day20WebApiLab\Day20WebApiLab.csproj", "{75B20A2E-CA45-4278-B0D4-1AB48187F8D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7069E57-0089-4E65-8C66-7C41A3D67203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B20A2E-CA45-4278-B0D4-1AB48187F8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B20A2E-CA45-4278-B0D4-1AB48187F8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B20A2E-CA45-4278-B0D4-1AB48187F8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B20A2E-CA45-4278-B0D4-1AB48187F8D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
