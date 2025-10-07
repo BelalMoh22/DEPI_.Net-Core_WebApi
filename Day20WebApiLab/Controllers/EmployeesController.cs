@@ -149,6 +149,8 @@ namespace Day20WebApiLab.Controllers
             {
                 return BadRequest();
             }
+
+
             var existingDepartment = await _context.Departments.FindAsync(employee.departmentId);
             if (existingDepartment == null)
             {

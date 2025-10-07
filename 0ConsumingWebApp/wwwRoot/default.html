@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Consume Api By JQuery</title>
+    </head>
+        <body>
+            <div>
+                <h2>All Depatments</h2>
+                <ul id="Departments" />
+            </div>
+            <div>
+                <h2>Search By Id</h2>
+                <input type="text" id="departmentId" size="5" value="" />
+                <input type="button" name="name" value="Search" onclick="find();" />
+                <p id="department"></p>
+            </div>
+            
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<script src="lib/jquery/jquery.js"></script>
+<noscript>Please Open JavaScript on Your Browser</noscript>
+<script>
+    $(document).ready(
+        function () {
+            $.ajax({
+                url: "https://localhost:7007/api/departments",
+                method: "GET",
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (error) {
+                    alert(error);
+                }
+            });
+        }
+    )
+
+        function formatItem(item) {
+            return item.name + ': $' + item.description;
+        }
+
+            function find() {
+            var id = $('#departmentId').val();
+                $.getJSON('https://localhost:7007/api/departments/' + id)
+                .done(function (data) {
+
+                    $('#department').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#department').text('Error: ' + err);
+                });
+            }
+</script>
+        </body>
+</html>
