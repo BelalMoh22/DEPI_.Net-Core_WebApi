@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EventDay19Lab
+namespace Day19EventLab
 {
     // Delegate
     public delegate string StringHandler(string str);
@@ -55,15 +55,15 @@ namespace EventDay19Lab
         {
             if (text == text.ToUpper())
             {
-                return ("String is Capitals");
+                return "String is Capitals";
             }
             else if (text == text.ToLower())
             {
-                return ("String is Small");
+                return "String is Small";
             }
             else
             {
-                return ("String is Mixed ");
+                return "String is Mixed ";
             }
         }
         public string StringLength(string text)

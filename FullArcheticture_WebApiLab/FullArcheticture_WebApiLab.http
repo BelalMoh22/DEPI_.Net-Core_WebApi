@@ -1,0 +1,6 @@
+@FullArcheticture_WebApiLab_HostAddress = http://localhost:5219
+
+GET {{FullArcheticture_WebApiLab_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

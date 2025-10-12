@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18WizardLab", "Day18Wiza
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18LabQuery", "Day18LabQuery\Day18LabQuery.csproj", "{C32D1E60-2315-4D8F-A538-4D045BC88DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDay19Lab", "EventDay19Lab\EventDay19Lab.csproj", "{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19EventLab", "EventDay19Lab\Day19EventLab.csproj", "{5DD75A00-42DA-46DD-8FFC-BFB19CB645A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19WinFormEventLab", "Day19WinFormEventLab\Day19WinFormEventLab.csproj", "{9818B1B4-97D5-45EB-90B0-DA395DF7CB57}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0ConsumingWinForm", "0ConsumingWinForm\0ConsumingWinForm.csproj", "{72278A40-6FBB-41A0-BBAF-50E0FFBC3EE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0ConsumingWebApp", "0ConsumingWebApp\0ConsumingWebApp.csproj", "{937F80F0-ED31-4AC1-B064-49B68A013597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullArcheticture_WebApiLab", "FullArcheticture_WebApiLab\FullArcheticture_WebApiLab.csproj", "{8A111C9B-6973-4771-8996-930C7E6643DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{937F80F0-ED31-4AC1-B064-49B68A013597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{937F80F0-ED31-4AC1-B064-49B68A013597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{937F80F0-ED31-4AC1-B064-49B68A013597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A111C9B-6973-4771-8996-930C7E6643DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A111C9B-6973-4771-8996-930C7E6643DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A111C9B-6973-4771-8996-930C7E6643DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A111C9B-6973-4771-8996-930C7E6643DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

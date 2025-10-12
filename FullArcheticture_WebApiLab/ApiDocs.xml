@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FullArcheticture_WebApiLab</name>
+    </assembly>
+    <members>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.#ctor(FullArcheticture_WebApiLab.Services.Interface.IServiceDepartment)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetDepartments">
+            <summary>
+             This EndPoint To Get All Departments
+            </summary>
+            <returns> List Of Department</returns>
+            <example>
+            GET : api/Departments
+            </example>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetDepartment(System.Int32)">
+            <summary>
+            This EndPoint To Get One Department By Id 
+            </summary>
+            <param name="id"> Int Number </param>
+            <returns> One Department Details</returns>
+            <remarks>
+              For Request: api/Departments/5
+            </remarks>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.PutDepartment(System.Int32,FullArcheticture_WebApiLab.DTOs.DepartmentDtos.PutDepartmentDto)">
+            <summary>
+            This EndPoint To Update the Department 
+            </summary>
+            <param name="id"> int Number for ID</param>
+            <param name="department">New Department Details</param>
+            <returns>NoContent</returns>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.PostDepartment(FullArcheticture_WebApiLab.DTOs.DepartmentDtos.PostDepartmentDto)">
+            <summary>
+            This EndPoint Creates a new Department
+            </summary>
+            <param name="department">New Department</param>
+            <returns> Created </returns>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetWithPagination(System.Int32,System.Int32)">
+            <summary>
+            This EndPoint For Get List of Departments With Pagination 
+            </summary>
+            <param name="page">Current Page Integer Number default 1</param>
+            <param name="pageSize">Page Size of row default 10</param>
+            <returns>List of Department</returns>
+        </member>
+        <member name="T:FullArcheticture_WebApiLab.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
