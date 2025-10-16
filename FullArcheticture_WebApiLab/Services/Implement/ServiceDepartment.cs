@@ -7,11 +7,6 @@ namespace FullArcheticture_WebApiLab.Services.Implement
 {
     public class ServiceDepartment : IServiceDepartment
     {
-        public enum IsExistType
-        {
-            Create,
-            Update
-        }
         private readonly IUnitOfWork _unitOfWork;
         public ServiceDepartment(IUnitOfWork unitOfWork)
         {
@@ -132,6 +127,21 @@ namespace FullArcheticture_WebApiLab.Services.Implement
         public int GetMaxID()
         {
             return _unitOfWork.DepartmentRepository.GetMaxId();
+        }
+
+        public bool isExist(CheckDepartmentDto department, ExistType existType = ExistType.Create)
+        {
+            bool result = false;
+            switch (existType)
+            {
+                case ExistType.Create:
+                    result = _unitOfWork.DepartmentRepository.GetAll().Any(d => d.Name.Trim().ToLower() == department.Name.Trim().ToLower());
+                    break;
+                case ExistType.Update:
+                    result = _unitOfWork.DepartmentRepository.GetAll().Any(d => d.Name.Trim().ToLower() == department.Name.Trim().ToLower()&& d.DepartmentId != department.DepartmentId);
+                    break;
+            }
+            return result;
         }
     }
 }

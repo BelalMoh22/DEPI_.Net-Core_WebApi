@@ -35,13 +35,12 @@ namespace FullArcheticture_WebApiLab.Repository.Implement
             if (page < 1) page = 1;
             if (pageSize < 1) pageSize = 10;
 
-            IQueryable<T> query = _appDbContext.Set<T>().AsNoTracking();
-            var pagedList = query
+           // IQueryable<T> query = _appDbContext.Set<T>().AsNoTracking(); // All rows also
+            var pagedList = _appDbContext.Set<T>().AsNoTracking()
                 .Skip((page - 1) * pageSize)
-                .Take(pageSize)
-                .ToList();
+                .Take(pageSize);
 
-            return pagedList;
+            return pagedList.ToList();
         }
 
         public int Counter()

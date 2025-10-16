@@ -12,45 +12,81 @@
         </member>
         <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetDepartments">
             <summary>
-             This EndPoint To Get All Departments
+             This EndPoint For Get List Of Departments
             </summary>
-            <returns> List Of Department</returns>
+            <returns> List Of Departments</returns>
             <example>
-            GET : api/Departments
+             GET: api/Departments
             </example>
-        </member>
-        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetDepartment(System.Int32)">
-            <summary>
-            This EndPoint To Get One Department By Id 
-            </summary>
-            <param name="id"> Int Number </param>
-            <returns> One Department Details</returns>
             <remarks>
-              For Request: api/Departments/5
+            Get Request :api/Departments
             </remarks>
+            <response code="200">Returns the list of departments</response>
+            <response code="404">No departments found</response>
+            <response code="500">Internal server error</response>
         </member>
-        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.PutDepartment(System.Int32,FullArcheticture_WebApiLab.DTOs.DepartmentDtos.PutDepartmentDto)">
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetDepartmentById(System.Int32)">
             <summary>
-            This EndPoint To Update the Department 
+            Retrieves a specific department by ID
             </summary>
-            <param name="id"> int Number for ID</param>
-            <param name="department">New Department Details</param>
-            <returns>NoContent</returns>
+            <param name="id">The department ID</param>
+            <returns>Department details</returns>
+            <remarks>
+            Get Request :api/Departments/{id} Like 1
+            </remarks>
+            <response code="200">Returns the department</response>
+            <response code="404">Department not found</response>
+            <response code="500">Internal server error</response>
         </member>
-        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.PostDepartment(FullArcheticture_WebApiLab.DTOs.DepartmentDtos.PostDepartmentDto)">
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.UpdateDepartment(System.Int32,FullArcheticture_WebApiLab.DTOs.DepartmentDtos.PutDepartmentDto)">
             <summary>
-            This EndPoint Creates a new Department
+            Updates an existing department
             </summary>
-            <param name="department">New Department</param>
-            <returns> Created </returns>
+            <param name="id">Department ID to update</param>
+            <param name="department">Updated department object</param>
+            <returns>Success message</returns>
+            <response code="200">Department updated successfully</response>
+            <response code="400">Invalid request data</response>
+            <response code="404">Department not found</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.CreateDepartment(FullArcheticture_WebApiLab.DTOs.DepartmentDtos.PostDepartmentDto)">
+             <summary>
+             Creates a new department
+             </summary>
+             <param name="department">Department object to create</param>
+             <returns>Created department</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Department
+                 {
+                    "name": "IT Department",
+                    "description": "Information Technology"
+                 }
+            
+             </remarks>
+             <response code="201">Department created successfully</response>
+             <response code="400">Invalid request data</response>
+             <response code="500">Internal server error</response>
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.DeleteDepartment(System.Int32)">
+            <summary>
+            Deletes a department
+            </summary>
+            <param name="id">Department ID to delete</param>
+            <returns>Success message</returns>
+            <response code="200">Department deleted successfully</response>
+            <response code="404">Department not found</response>
+            <response code="500">Internal server error</response>
         </member>
         <member name="M:FullArcheticture_WebApiLab.Controllers.RepoDepartmentsController.GetWithPagination(System.Int32,System.Int32)">
             <summary>
-            This EndPoint For Get List of Departments With Pagination 
+            This EndPoint For Get List Of Departments With Pagination
             </summary>
-            <param name="page">Current Page Integer Number default 1</param>
-            <param name="pageSize">Page Size of row default 10</param>
-            <returns>List of Department</returns>
+            <param name="page"> Current Page Integer Number default 1</param>
+            <param name="pageSize"> Page size Of Row default 10</param>
+            <returns> List Of Department With Pagination</returns>
         </member>
         <member name="T:FullArcheticture_WebApiLab.Migrations.InitialMigration">
             <inheritdoc />

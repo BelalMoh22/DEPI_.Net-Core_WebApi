@@ -3,6 +3,11 @@ using FullArcheticture_WebApiLab.DTOs.DepartmentDtos;
 
 namespace FullArcheticture_WebApiLab.Services.Interface
 {
+   public enum ExistType
+    {
+        Create = 1,
+        Update = 2
+    }
     public interface IServiceDepartment
     {
         //Logical Business
@@ -17,6 +22,6 @@ namespace FullArcheticture_WebApiLab.Services.Interface
         IEnumerable<GetDepartmentWithEmpNamesDto> DepartmentWithEmployee(params string[] including);
         int GetMaxID();
 
-
+        bool isExist(CheckDepartmentDto department, ExistType existType = ExistType.Create);
     }
 }

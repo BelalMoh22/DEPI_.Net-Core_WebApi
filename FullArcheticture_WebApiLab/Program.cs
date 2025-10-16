@@ -60,7 +60,8 @@ namespace FullArcheticture_WebApiLab
             //builder.Services.AddScoped<Employee>();
             //Registration resolve service
             //builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-            builder.Services.AddScoped<IUnitOfWork, FullArcheticture_WebApiLab.UnitOfWorks.UnitOfWork>();
+            builder.Services.AddScoped(typeof(IRepository<>) , typeof(GenericRepository<>));
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IServiceDepartment, ServiceDepartment>();
             //-------------------------------------------------------
             var app = builder.Build();

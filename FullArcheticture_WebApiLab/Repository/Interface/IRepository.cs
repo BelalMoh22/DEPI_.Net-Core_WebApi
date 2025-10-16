@@ -2,6 +2,11 @@
 
 namespace FullArcheticture_WebApiLab.Repository.Interface
 {
+    //public enum ExistType
+    //{
+    //    Create = 1,
+    //    Update =2
+    //}
     public interface IRepository<T> where T : class
     {
         IEnumerable<T> GetAll();
@@ -15,5 +20,6 @@ namespace FullArcheticture_WebApiLab.Repository.Interface
         IEnumerable<T> GetWithPagination(int page = 1, int pageSize = 10);
         int GetMaxId();
 
+        //bool isExist(T entity , ExistType existType = ExistType.Create);
     }
 }
