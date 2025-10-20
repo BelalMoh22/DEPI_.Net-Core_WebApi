@@ -100,5 +100,17 @@
         <member name="M:FullArcheticture_WebApiLab.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:FullArcheticture_WebApiLab.Migrations.AddTables">
+            <inheritdoc />
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Migrations.AddTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Migrations.AddTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FullArcheticture_WebApiLab.Migrations.AddTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
